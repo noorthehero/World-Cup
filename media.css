@@ -1,0 +1,266 @@
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 320px){
+    .main_menu {
+        padding: 10px 10px;
+    }
+    .menu_list, .main_menu .search, .menu_icon ul li, .title ul li.all{
+        display: none;
+    }
+    .menu_icon .mobile{
+        display: inline; 
+    }
+    .logo {
+        flex-basis: 90%;
+    }
+    .right_header, .left_header{
+        flex-basis: 100%;
+    }
+    .header {
+        margin:10px 10px;
+    }
+    
+    .time{
+        margin-top: 20px;
+    }
+    .team {
+        padding: 28px;
+    }
+    .inline, .time{
+        flex-basis: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .common{
+        flex-basis: 100%;
+    }
+    .hot{
+            margin: 0px 10px;
+    }
+    .main_footer img {
+        margin-right: 20px;
+    }
+    .left_header {
+        margin-left: 0px;
+    }
+    .maches a.view_all {
+        padding: 14px 51px 11px 51px;
+        left: 21%; 
+    }
+    .body_back .is img {
+        top: 30px;
+        right: -6px;
+    }
+    
+    .right_form ul, .left_form ul {
+        margin: 0px 0px 20px 0px;
+    }
+    .fea_box a {
+        padding: 14px 26px 11px 26px;
+        left: 21%;
+    }
+    .main_faq img {
+        right: 30px;
+    }
+    .header{
+        display: block;
+    }
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 360px){
+    .maches a.view_all, .fea_box a{
+        left:25%
+    }
+    .header{
+        display: flex;
+    }
+}
+   
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 425px){
+    .maches a.view_all, .fea_box a{
+        left: 35%;
+    }
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 600px){
+    .menu_icon .mobile{
+        display: none; 
+    }
+    .menu_list, .main_menu .search, .menu_icon ul li, .title ul li.all{
+        display: inline;
+    }
+    .logo {
+        flex-basis: 23%;
+    }
+    .search {
+        flex-basis: 51%;
+    }
+    .menu_icon{
+        flex-basis: 28%;
+        margin-top: 12px;
+    }
+    .search button {
+        padding: 8px 5px;
+    }
+    .search input {
+        height: 40px;
+        padding: 4px 5px;
+        width: 80%;
+        margin-top: 10px;
+    }
+    
+    .fea_box a{
+        left: 40%;
+    }
+    .dashboard, .last_winers{
+        flex-basis: 48%;
+    }
+
+    
+
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media  (min-width: 768px){
+    .logo {
+        flex-basis: 17%;
+    }
+    .search {
+        flex-basis: 62%;
+    }
+    .menu_icon{
+        flex-basis: 21%;
+        margin-top: 12px;
+    }
+    .left_header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .last_winers{
+        margin: 0px 0px 0px 7px ;
+    }
+    .common{
+        flex-basis: 48%;
+        margin: 0px 5px;
+    } 
+    .fea_box a{
+        left: 41%;
+    }
+    .maches a.view_all {
+        left: 38%; 
+    }
+    .time{
+        flex-basis: 30%;
+        text-align: center;
+    }
+    .inline{
+        flex-basis: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+/*==============================
+    Laptop
+===============================*/
+@media  (min-width: 992px){
+    .logo {
+        flex-basis: 14%;
+    }
+    .search {
+        flex-basis: 70%;
+    }
+    .menu_icon{
+        flex-basis: 16%;
+        margin-top: 12px;
+    }
+    .fea_box a{
+        left: 43%;
+    }
+    .maches a.view_all {
+        left: 41%; 
+    }
+
+}
+
+
+
+/*==============================
+    Tab
+===============================*/
+@media (min-width: 1200px){
+    .main_menu {
+        padding: 10px 100px;
+    }
+    .header {
+        margin: 10px 100px;
+    }
+    .logo{
+        flex-basis: 18%;
+    }
+    .search{
+        flex-basis: 57%;
+        
+    }
+    .menu_icon{
+        flex-basis: 25%;
+        text-align: right; 
+    }
+    .search input{
+        height: 46px;
+        padding: 0px 10px;
+        width: 85%;
+    }
+    .search input:focus{
+        outline: none;
+    }
+    .search button{
+        padding: 11px 21px;
+    }
+    
+   
+    .right_header{
+        flex-basis: 71%;
+    }
+    .left_header{
+        flex-basis: 25%;
+        margin-left: 30px;
+    }
+    .fea_box a{
+        left: 40%;
+    }
+    .maches a.view_all {
+        left: 38%;
+    }
+    .dashboard, .last_winers{
+        flex-basis: 100%;
+    }
+    .last_winers{
+        margin: 30px 0px 0px 0px ;
+    }
+
+}
+
+/*==============================
+Desktop
+===============================*/
+@media (min-width: 1400px){
+    
+    
+}
